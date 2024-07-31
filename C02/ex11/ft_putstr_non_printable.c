@@ -6,7 +6,7 @@
 /*   By: fsanli <fsanli@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/21 19:54:26 by fsanli            #+#    #+#             */
-/*   Updated: 2024/07/25 17:52:14 by fsanli           ###   ########.fr       */
+/*   Updated: 2024/07/30 14:22:42 by fsanli           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,14 @@ void	ft_putstr_non_printable(char *str);
 
 void	dec_to_hex(char c, char *hex);
 
-// int	main(void)
-// {
-// 	// char	*c = "asdf\033fjl\177kj";
-// 	char	*c = "Coucou\ntu vas bien ?";
+int	main(void)
+{
+	char	*c;
 
-// 	ft_putstr_non_printable(c);
-// 	return (0);
-// }
+	c = "Coucou\ntu vas bien ?";
+	ft_putstr_non_printable(c);
+	return (0);
+}
 
 void	ft_putstr_non_printable(char *str)
 {

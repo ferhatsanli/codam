@@ -6,18 +6,11 @@
 /*   By: fsanli <fsanli@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/18 22:59:38 by fsanli            #+#    #+#             */
-/*   Updated: 2024/07/18 23:02:13 by fsanli           ###   ########.fr       */
+/*   Updated: 2024/07/30 14:32:20 by fsanli           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_uppercase(char *str);
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	printf("%d\n", ft_str_is_uppercase(""));
-// 	return (0);
-// }
 
 int	ft_str_is_uppercase(char *str)
 {

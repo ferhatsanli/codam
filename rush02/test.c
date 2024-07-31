@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fsanli <fsanli@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/16 17:28:57 by fsanli            #+#    #+#             */
-/*   Updated: 2024/07/29 20:50:41 by fsanli           ###   ########.fr       */
+/*   Created: 2024/07/28 23:20:58 by fsanli            #+#    #+#             */
+/*   Updated: 2024/07/28 23:21:40 by fsanli           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcpy(char *dest, char *src);
+#include <stdio.h>
 
-char	*ft_strcpy(char *dest, char *src)
+int	main(void)
 {
-	int	i;
+	char	arr[128];
 
-	i = 0;
-	while (src[i] != '\0')
-	{
-		dest[i] = src[i];
-		i++;
-	}
-	dest[i] = '\0';
-	return (dest);
+	printf("%d\n", sizeof(arr));
+	return (0);
 }

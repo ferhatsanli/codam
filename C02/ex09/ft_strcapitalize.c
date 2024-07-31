@@ -6,22 +6,13 @@
 /*   By: fsanli <fsanli@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/20 22:30:08 by fsanli            #+#    #+#             */
-/*   Updated: 2024/07/25 22:38:52 by fsanli           ###   ########.fr       */
+/*   Updated: 2024/07/30 14:32:48 by fsanli           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcapitalize(char *str);
 int		is_alpha_numeric(char c);
 int		is_alpha(char c);
-
-// #include <stdio.h>
-// int main(void)
-// {
-// 	char text[62] = "HELLO";
-// 	// "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
-// 	printf("%s\n", ft_strcapitalize(text));
-// 	return (0);
-// }
 
 char	*ft_strcapitalize(char *str)
 {
